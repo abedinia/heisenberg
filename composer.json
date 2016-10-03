@@ -1,13 +1,24 @@
 {
     "name": "abedinia/yii117",
-    "description": "yii 1.1.7 php framework - install this with composer",
-    "require": {
-        "php": "^5.3.3 || ^7.0"
-    }
-    "repositories": [
+    "type": "library",
+    "description": "pure yii 1.1.7 framework",
+    "keywords": ["yii117","yii framework"],
+    "homepage": "https://github.com/abedinia/yii117",
+    "license": "MIT",
+    "authors": [
         {
-            "url": "https://github.com/abedinia/yii117.git",
-            "type": "git"
+            "name": "aydin abedinia",
+            "email": "aydin.abdnia@gmail.com",
+            "homepage": "http://www.abedinia.ir",
+            "role": "Developer"
         }
-    ]
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Monolog": "src"
+        }
+    }
 }
