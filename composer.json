@@ -1,5 +1,7 @@
 {
     "name": "abedinia/yii117",
     "description": "yii 1.1.7 php framework - install this with composer",
-    "require": {}
+    "require": {
+        "php": "^5.3.3 || ^7.0"
+    }
 }
