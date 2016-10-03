@@ -9,7 +9,7 @@
         "wiki": "https://packagist.org/packages/abedinia/yii117",
         "source": "https://github.com/abedinia/yii117"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev-master",
     "require": {
         "php": ">=5.4.0"
     },
