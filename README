@@ -7,6 +7,12 @@ Thank you for choosing Yii - a high-performance component-based PHP framework.
 INSTALLATION
 ------------
 
+==========================================================
+REQUIRE WITH COMPOSER >> composer require abedinia/yii117
+==========================================================
+
+
+
 Please make sure the release file is unpacked under a Web-accessible
 directory. You shall see the following files and directories:
 
