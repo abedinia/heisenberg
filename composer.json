@@ -4,4 +4,10 @@
     "require": {
         "php": "^5.3.3 || ^7.0"
     }
+    "repositories": [
+        {
+            "url": "https://github.com/abedinia/yii117.git",
+            "type": "git"
+        }
+    ]
 }
