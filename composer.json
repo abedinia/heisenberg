@@ -3,11 +3,10 @@
     "description": "Yii 1.1.7 pure",
     "keywords": ["yii", "yii1.1.7", "framework", "project template"],
     "homepage": "https://packagist.org/packages/abedinia/yii117",
+    "Source":"https://github.com/abedinia/yii117.git",
     "type": "project",
     "license": "BSD-3-Clause",
     "require": {
         "php": ">=5.4.0"
     }
-    
 }
-
