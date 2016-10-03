@@ -11,10 +11,6 @@
 			"email": "aydin.abdnia@gmail.com",
 			"role": "Nothing ;)"
 		}
-		
-	],
-	"bin": [
-		"framework/yiic"
 	],
 	"require": {
 		"php": ">=5.1.0"
