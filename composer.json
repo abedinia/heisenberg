@@ -1,6 +1,6 @@
 {
     "name": "abedinia/yii117",
-    "type": "library",
+    "type": "framework",
     "description": "pure yii 1.1.7 framework",
     "keywords": ["yii117","yii framework"],
     "homepage": "https://github.com/abedinia/yii117",
