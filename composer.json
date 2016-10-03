@@ -1,26 +1,15 @@
 {
-    "name": "abedinia/yii117-webapplication",
+    "name": "abedinia/yii117",
     "description": "Yii 1.1.7 pure",
     "keywords": ["yii", "yii1.1.7", "framework", "project template"],
-    "homepage": "https://github.com/abedinia/yii117",
+    "homepage": "https://packagist.org/packages/abedinia/yii117",
     "type": "project",
     "license": "BSD-3-Clause",
-    "support": {
-        "wiki": "https://packagist.org/packages/abedinia/yii117",
-        "source": "https://github.com/abedinia/yii117"
-    },
-    "minimum-stability": "dev-master",
     "require": {
         "php": ">=5.4.0"
     },
     "require-dev": {
         "/abedinia/yii117": "*"
-    },
-    "config": {
-        "process-timeout": 1800
-    },
-    "scripts": {
-        "post-install-cmd": "php init --env=Development --overwrite=n"
     }
 }
 
