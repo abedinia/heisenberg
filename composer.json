@@ -1,24 +1,26 @@
 {
-    "name": "abedinia/yii117",
-    "type": "framework",
-    "description": "pure yii 1.1.7 framework",
-    "keywords": ["yii117","yii framework"],
+    "name": "abedinia/yii117-webapplication",
+    "description": "Yii 1.1.7 pure",
+    "keywords": ["yii", "yii1.1.7", "framework", "project template"],
     "homepage": "https://github.com/abedinia/yii117",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "aydin abedinia",
-            "email": "aydin.abdnia@gmail.com",
-            "homepage": "http://www.abedinia.ir",
-            "role": "Developer"
-        }
-    ],
-    "require": {
-        "php": ">=5.3.0"
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "wiki": "https://packagist.org/packages/abedinia/yii117",
+        "source": "https://github.com/abedinia/yii117"
     },
-    "autoload": {
-        "psr-0": {
-            "Monolog": "src"
-        }
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "/abedinia/yii117": "*"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "scripts": {
+        "post-install-cmd": "php init --env=Development --overwrite=n"
     }
 }
+
