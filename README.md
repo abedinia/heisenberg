@@ -8,6 +8,5 @@ composer require abedinia/yii117
 composer create-project abedinia/yii117
 
 ********************************
-
-add empty runtime directory in protected directory
+!!!chmod 777 -R to repository!!!
 
