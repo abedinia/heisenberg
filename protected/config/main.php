@@ -2,6 +2,7 @@
 
 // uncomment the following to define a path alias
 // Yii::setPathOfAlias('local','path/to/local-folder');
+Yii::setPathOfAlias('booster', dirname(__FILE__) . DIRECTORY_SEPARATOR . '../extensions/booster');
 
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
@@ -10,24 +11,28 @@ return array(
 	'name'=>'My Web Application',
 
 	// preloading 'log' component
-	'preload'=>array('log'),
+	'preload'=>array('log','bootstrap'),
 
 	// autoloading model and component classes
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
 	),
+    'aliases'=>array(
+        'booster'=>realpath(__DIR__.'/../components/booster'),
+    ),
 
 	'modules'=>array(
 		// uncomment the following to enable the Gii tool
-		/*
+
 		'gii'=>array(
 			'class'=>'system.gii.GiiModule',
-			'password'=>'Enter Your Password Here',
+			'password'=>'root',
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
+            'generatorPaths'=>array('booster.gii')
 		),
-		*/
+
 	),
 
 	// application components
@@ -37,9 +42,17 @@ return array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
+        'booster' => array(
+            'class' => 'booster.components.Bootstrap',
+        ),
 
 		// uncomment the following to enable URLs in path-format
+        'bootstrap'=>array(
+            'class'=>'booster.components.Booster',
+            'responsiveCss'=>true,
 
+            'minify'=>true,
+        ),
 		'urlManager'=>array(
 			'urlFormat'=>'path',
 			'rules'=>array(
