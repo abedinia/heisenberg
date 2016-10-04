@@ -1,3 +1,6 @@
 /vendor/
 /assets/*
+/protected/runtime/*
 /protected/config/database.php
+/heisenberg.php
+/protected/heisenberg.php
