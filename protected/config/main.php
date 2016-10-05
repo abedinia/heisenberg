@@ -17,6 +17,7 @@ return array(
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
+        'application.extensions.*'
 	),
     'aliases'=>array(
         'booster'=>realpath(__DIR__.'/../components/booster'),
@@ -38,14 +39,22 @@ return array(
 	// application components
 	'components'=>array(
 
-		'user'=>array(
-			// enable cookie-based authentication
-			'allowAutoLogin'=>true,
-		),
+        'user' => array(
+            // enable cookie-based authentication
+            'class' => 'PWebUser',
+            'allowAutoLogin' => true,
+        ),
+        'MultiMailer' => array(
+            'class' => 'extensions.MultiMailer.MultiMailer',
+            'setFromAddress' => 'sample@heisenberg.com',
+            'setFromName' => 'heisenberg',
+        ),
         'booster' => array(
             'class' => 'booster.components.Bootstrap',
         ),
-
+        'apputil' => array(
+            'class' => 'ectensions.apputil.AppUtility',
+        ),
 		// uncomment the following to enable URLs in path-format
         'bootstrap'=>array(
             'class'=>'booster.components.Booster',
@@ -53,7 +62,7 @@ return array(
 
             'minify'=>true,
         ),
-	'urlManager'=>array(
+	    'urlManager'=>array(
 			'urlFormat'=>'path',
 			'showScriptName' => false,
             'rules'=>array(

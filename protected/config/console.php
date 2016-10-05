@@ -9,12 +9,21 @@ return array(
 	// preloading 'log' component
 	'preload'=>array('log'),
 
+//    import from main.php
+    'import'=>array(
+        'application.models.*',
+        'application.components.*',
+        'application.extensions.*'
+    ),
+
 	// application components
 	'components'=>array(
 
 		// database settings are configured in database.php
 		'db'=>require(dirname(__FILE__).'/database.php'),
-
+        'apputil' => array(
+            'class' => 'extensions.apputil.AppUtility',
+        ),
 		'log'=>array(
 			'class'=>'CLogRouter',
 			'routes'=>array(
