@@ -86,7 +86,7 @@ class SiteController extends Controller
 		$this->redirect(Yii::app()->homeUrl);
 	}
 
-	
+
 
     /**
      * Displays the login page
