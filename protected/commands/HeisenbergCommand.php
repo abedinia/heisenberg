@@ -21,7 +21,7 @@ class HeisenbergCommand extends CConsoleCommand
         $username = trim(fgets(STDIN));
 
         echo "\n\n";
-        print "Second Step I want u to insert Password for admin  \n";
+        print "Second Step I want u to insert Password for ".$username."  \n";
 
         echo "\n\nPLz Insert Your password :";
         $password = trim(fgets(STDIN));
@@ -31,7 +31,7 @@ class HeisenbergCommand extends CConsoleCommand
         echo " & Your Password is : ".$password;
 
         echo "\n\n I create admin now ?";
-        echo "\n\n y | n - type y or n : ";
+        echo "\n\n yes or no - type y or n : ";
         echo "\n\n";
         $bool = trim(fgets(STDIN));
         if($bool == 'y'){
@@ -40,8 +40,8 @@ class HeisenbergCommand extends CConsoleCommand
                 $time = time();
                 $hashed = CPasswordHelper::hashPassword($password);
 
-                Yii::app()->db->createCommand("INSERT INTO `user` (`email`, `username`, `password`,`created_time`,`lastlogin`,`role`)VALUES ('a@a.a', '$username', '$hashed',$time,$time,0)")->execute();
-                echo "super admin inserted | U can login with username & password";
+                Yii::app()->db->createCommand("INSERT INTO `user` (`email`, `username`, `password`,`created_time`)VALUES ('test@domain.ir', '$username', '$hashed',$time)")->execute();
+                echo "\n\n".$username." inserted | U can login with username & password\n\n";
             } catch (Exception $e) {
                 echo "Plz Try Again Later...";
             }

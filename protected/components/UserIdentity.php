@@ -28,7 +28,7 @@ class UserIdentity extends CUserIdentity
             $this->user_model = $user;
             Yii::app()->user->id = $this->_id;
             $user->scenario = 'last_login';
-            $user->last_login = time();
+            $user->lastlogin = time();
             $p = $user->save();
             if(!$p){
                 echo '<pre>';
