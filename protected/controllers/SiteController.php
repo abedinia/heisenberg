@@ -88,6 +88,7 @@ class SiteController extends Controller
 
 
 
+
     /**
      * Displays the login page
      */
