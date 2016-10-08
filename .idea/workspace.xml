@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1827a771-e6a3-435e-8e03-1e410008a502" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/upload/08.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/commands/HeisenbergCommand.php" afterPath="$PROJECT_DIR$/protected/commands/HeisenbergCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/config/database.sample.php" afterPath="$PROJECT_DIR$/protected/config/database.sample.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/config/main.php" afterPath="$PROJECT_DIR$/protected/config/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/SiteController.php" afterPath="$PROJECT_DIR$/protected/controllers/SiteController.php" />
     </list>
     <ignored path="yii117.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,13 +23,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HeisenbergCommand.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HeisenbergCommand.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/commands/HeisenbergCommand.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+            <state relative-caret-position="317">
+              <caret line="42" column="186" selection-start-line="42" selection-start-column="186" selection-end-line="42" selection-end-column="186" />
               <folding>
-                <marker date="1475914942322" expanded="true" signature="1261:1374" ph="INSERT INTO user... " />
+                <marker date="1475915576430" expanded="true" signature="1261:1401" ph="INSERT INTO user... " />
               </folding>
             </state>
           </provider>
@@ -53,8 +48,8 @@
       <file leaf-file-name="UserEntity.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/models/entities/UserEntity.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="-115">
+              <caret line="68" column="22" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -90,10 +85,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SiteController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SiteController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
+            <state relative-caret-position="457">
               <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
               <folding />
             </state>
@@ -136,8 +131,8 @@
         <option value="$PROJECT_DIR$/protected/config/database.sample.php" />
         <option value="$PROJECT_DIR$/images/upload/.gitignore" />
         <option value="$PROJECT_DIR$/protected/config/main.php" />
-        <option value="$PROJECT_DIR$/protected/commands/HeisenbergCommand.php" />
         <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/protected/commands/HeisenbergCommand.php" />
       </list>
     </option>
   </component>
@@ -281,12 +276,12 @@
       <workItem from="1475649683256" duration="6289000" />
       <workItem from="1475659824129" duration="5292000" />
       <workItem from="1475667314776" duration="8931000" />
-      <workItem from="1475907830727" duration="7085000" />
+      <workItem from="1475907830727" duration="7795000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36803000" />
+    <option name="totallyTimeSpent" value="37513000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1545" y="24" width="1545" height="876" extended-state="6" />
@@ -647,14 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/entities/UserEntity.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/models/LoginForm.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1404">
@@ -687,21 +674,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/commands/HeisenbergCommand.php">
+    <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-          <folding>
-            <marker date="1475914942322" expanded="true" signature="1261:1374" ph="INSERT INTO user... " />
-          </folding>
+        <state relative-caret-position="457">
+          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
+    <entry file="file://$PROJECT_DIR$/protected/models/entities/UserEntity.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+        <state relative-caret-position="-115">
+          <caret line="68" column="22" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/commands/HeisenbergCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="42" column="186" selection-start-line="42" selection-start-column="186" selection-end-line="42" selection-end-column="186" />
+          <folding>
+            <marker date="1475915576430" expanded="true" signature="1261:1401" ph="INSERT INTO user... " />
+          </folding>
         </state>
       </provider>
     </entry>

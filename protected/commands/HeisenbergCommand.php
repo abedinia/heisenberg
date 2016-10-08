@@ -40,7 +40,7 @@ class HeisenbergCommand extends CConsoleCommand
                 $time = time();
                 $hashed = CPasswordHelper::hashPassword($password);
 
-                Yii::app()->db->createCommand("INSERT INTO `user` (`email`, `username`, `password`,`created_time`)VALUES ('a@a.a', '$username', '$hashed',$time)")->execute();
+                Yii::app()->db->createCommand("INSERT INTO `user` (`email`, `username`, `password`,`created_time`,`lastlogin`,`role`)VALUES ('a@a.a', '$username', '$hashed',$time,$time,0)")->execute();
                 echo "super admin inserted | U can login with username & password";
             } catch (Exception $e) {
                 echo "Plz Try Again Later...";
