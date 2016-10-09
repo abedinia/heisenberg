@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1827a771-e6a3-435e-8e03-1e410008a502" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/config/main.php" afterPath="$PROJECT_DIR$/protected/config/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/SiteController.php" afterPath="$PROJECT_DIR$/protected/controllers/SiteController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/apputil/AppUtility.php" afterPath="$PROJECT_DIR$/protected/extensions/apputil/AppUtility.php" />
     </list>
     <ignored path="yii117.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -248,12 +245,12 @@
       <workItem from="1475667314776" duration="8931000" />
       <workItem from="1475907830727" duration="14698000" />
       <workItem from="1475927191230" duration="2531000" />
-      <workItem from="1475993965260" duration="2494000" />
+      <workItem from="1475993965260" duration="2933000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49441000" />
+    <option name="totallyTimeSpent" value="49880000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1545" y="24" width="1545" height="876" extended-state="6" />
