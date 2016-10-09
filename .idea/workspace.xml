@@ -2,43 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1827a771-e6a3-435e-8e03-1e410008a502" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/form.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/ie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/print.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/screen.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/curl" afterPath="$PROJECT_DIR$/protected/extensions/curl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/components/validator/NationalID.php" afterPath="$PROJECT_DIR$/protected/components/validator/NationalID.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/components/validator/uniqueMultiColumnValidator.php" afterPath="$PROJECT_DIR$/protected/components/validator/uniqueMultiColumnValidator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/components/widget/SimpleTable.php" afterPath="$PROJECT_DIR$/protected/components/widget/SimpleTable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/components/widget/TbGroupDatePicker.php" afterPath="$PROJECT_DIR$/protected/components/widget/TbGroupDatePicker.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/config/main.php" afterPath="$PROJECT_DIR$/protected/config/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/SiteController.php" afterPath="$PROJECT_DIR$/protected/controllers/SiteController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/EExcelView/EExcelView.php" afterPath="$PROJECT_DIR$/protected/extensions/EExcelView/EExcelView.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/phpmailer/JPhpMailer.php" afterPath="$PROJECT_DIR$/protected/extensions/phpmailer/JPhpMailer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/phpmailer/class.phpmailer.php" afterPath="$PROJECT_DIR$/protected/extensions/phpmailer/class.phpmailer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/phpmailer/class.pop3.php" afterPath="$PROJECT_DIR$/protected/extensions/phpmailer/class.pop3.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/phpmailer/class.smtp.php" afterPath="$PROJECT_DIR$/protected/extensions/phpmailer/class.smtp.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-ar.php" afterPath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-ar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-br.php" afterPath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-br.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-ca.php" afterPath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-ca.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-ch.php" afterPath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-ch.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-cz.php" afterPath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-cz.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-de.php" afterPath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-de.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-dk.php" afterPath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-dk.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-es.php" afterPath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-es.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-et.php" afterPath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-et.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-fi.php" afterPath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-fi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-fo.php" afterPath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-fo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-fr.php" afterPath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-fr.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-hu.php" afterPath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-hu.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-it.php" afterPath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-it.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-ja.php" afterPath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-ja.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-nl.php" afterPath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-nl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-no.php" afterPath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-no.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-pl.php" afterPath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-pl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-ro.php" afterPath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-ro.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-ru.php" afterPath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-ru.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-se.php" afterPath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-se.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-tr.php" afterPath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-tr.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-zh.php" afterPath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-zh.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-zh_cn.php" afterPath="$PROJECT_DIR$/protected/extensions/phpmailer/language/phpmailer.lang-zh_cn.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/layouts/main.php" afterPath="$PROJECT_DIR$/protected/views/layouts/main.php" />
     </list>
     <ignored path="yii117.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,7 +30,18 @@
     <favorites_list name="yii117" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="99" selection-start-line="15" selection-start-column="99" selection-end-line="15" selection-end-column="99" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -108,14 +91,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/static/bower/node_modules" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
     <include_path>
       <path value="$PROJECT_DIR$/../framework" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1655" />
-    <option name="y" value="-1776" />
+    <option name="x" value="-1545" />
+    <option name="y" value="24" />
     <option name="width" value="1545" />
     <option name="height" value="876" />
   </component>
@@ -160,6 +146,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="github" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="github" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="github" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="github" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="github" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="github" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="github" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -262,18 +302,18 @@
       <workItem from="1475907830727" duration="14698000" />
       <workItem from="1475927191230" duration="2531000" />
       <workItem from="1475993965260" duration="14974000" />
-      <workItem from="1476015761101" duration="3664000" />
+      <workItem from="1476015761101" duration="4043000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65585000" />
+    <option name="totallyTimeSpent" value="65964000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1655" y="-1776" width="1545" height="876" extended-state="6" />
-    <editor active="false" />
+    <frame x="-1545" y="24" width="1545" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24949966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24949966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -656,8 +696,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="15" column="99" selection-start-line="15" selection-start-column="99" selection-end-line="15" selection-end-column="99" />
           <folding />
         </state>
       </provider>
