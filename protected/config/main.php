@@ -45,6 +45,7 @@ return array(
             'class' => 'ext.curl.Curl',
             'options' => array(/* additional curl options */),
         ),
+
         'user' => array(
             // enable cookie-based authentication
             'class' => 'PWebUser',

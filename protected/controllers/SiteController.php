@@ -92,31 +92,15 @@ class SiteController extends Controller
 
 
 
-//        update data
-//        $criteria = new CDbCriteria();
-//        $criteria->addCondition("username=:username");
-//        $criteria->params = array(':username' => 'aydin');
-//        User::model()->updateAll(array('email'=>'asdasd@asdas.asda'), $criteria);
 
+        echo Yii::app()->basePath."/config/console.php";
 
-
-
-
-//            retrieve data
-//            $criteria = new CDbCriteria();
-//            $criteria->addCondition("username=:username");
-//            $criteria->params = array(':username' => 'aydin');
-//            $superuser = User::model()->findAll($criteria);
-
-
-//            $superuser->email = "aydin@abdnia.casd";
-//            $superuser->save();
 
     }
 
 
     /**
-     * Displays the login page
+     * upload image
      */
 //    public function actionUpload()
 //    {
