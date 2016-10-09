@@ -88,6 +88,12 @@ class SiteController extends Controller
 
 
 
+	public function actionTest(){
+
+
+
+    }
+
 
     /**
      * Displays the login page

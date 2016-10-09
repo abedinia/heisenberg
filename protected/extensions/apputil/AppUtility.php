@@ -8,6 +8,8 @@
  * @param gd gdUtility Graphic related Class
  *
  * @author saeed
+ * use like this
+ * print Yii::app()->apputil->date->date("Y-m-d");
  */
 class AppUtility extends CApplicationComponent
 {

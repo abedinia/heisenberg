@@ -55,7 +55,7 @@ return array(
             'class' => 'booster.components.Bootstrap',
         ),
         'apputil' => array(
-            'class' => 'ectensions.apputil.AppUtility',
+            'class' => 'ext.apputil.AppUtility',
         ),
 		// uncomment the following to enable URLs in path-format
         'bootstrap'=>array(
