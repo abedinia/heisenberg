@@ -12,6 +12,7 @@ return array(
 //    import from main.php
     'import'=>array(
         'application.models.*',
+        'application.models.entities.*',
         'application.components.*',
         'application.extensions.*'
     ),
