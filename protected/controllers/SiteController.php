@@ -93,9 +93,6 @@ class SiteController extends Controller
 
 
 
-        echo Yii::app()->basePath."/config/console.php";
-
-
     }
 
 
