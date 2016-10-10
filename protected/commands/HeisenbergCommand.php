@@ -12,6 +12,9 @@ class HeisenbergCommand extends CConsoleCommand
 
     public function actionIndex()
     {
+
+
+
         print "Hello And Welcome To Heisenberg Command line \n";
         print "Here We Want U to Add SuperAdmin \n";
         print "..:Created By Aydin Abedinia:.. \n";
@@ -38,43 +41,46 @@ class HeisenbergCommand extends CConsoleCommand
 
 
 
+
+
+            $check = Yii::app()->db->schema->getTable('user');
+            if($check == null){
+                $runner=new CConsoleCommandRunner();
+                $runner->commands=array(
+                    'migrate' => array(
+                        'class' => 'system.cli.commands.MigrateCommand',
+                        'interactive' => false,
+                    ),
+                );
+
+                ob_start();
+                $runner->run(array(
+                    'yiic',
+                    'migrate',
+
+                ));
+            }
+
             $criteria = new CDbCriteria();
             $criteria->addCondition("username=:username");
             $criteria->params = array(':username' => $username);
             $superuser = User::model()->findAll($criteria);
 
             if(count($superuser) == 0){
-
                 $model = new UserEntity();
-
                 $model->email = "a@a.a";
                 $model->username = $username;
                 $model->password = CPasswordHelper::hashPassword($password);
                 $model->created_time = time();
                 $model->save();
-
-                echo "\n\n superadmin inserted to DB - U Can login with user&pass \n\n ";
-
+                echo "\n\n superadmin inserted to DB - U Can login with user&pass \n\n";
             }else{
-
-
                 $hashedpass = CPasswordHelper::hashPassword($password);
                 User::model()->updateAll(array('password'=>$hashedpass), $criteria);
 
-                echo "\n\n superadmin exist in DB - new password Updated \n\n ";
+                echo "\n\n superadmin exist in DB - new password Updated \n\n";
 
             }
-
-
-
-
-
-
-
-
-
-
-
         }else{
             echo "\n\n no \n\n";
         }

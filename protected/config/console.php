@@ -22,6 +22,7 @@ return array(
 
 		// database settings are configured in database.php
 		'db'=>require(dirname(__FILE__).'/database.php'),
+
         'apputil' => array(
             'class' => 'extensions.apputil.AppUtility',
         ),
