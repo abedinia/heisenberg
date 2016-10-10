@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1827a771-e6a3-435e-8e03-1e410008a502" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/extensions/curl" afterPath="$PROJECT_DIR$/protected/extensions/curl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/SiteController.php" afterPath="$PROJECT_DIR$/protected/controllers/SiteController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/index.php" afterPath="$PROJECT_DIR$/protected/views/site/index.php" />
     </list>
     <ignored path="yii117.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,28 +27,18 @@
       <file leaf-file-name="HeisenbergCommand.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/commands/HeisenbergCommand.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+            <state relative-caret-position="216">
+              <caret line="66" column="59" selection-start-line="66" selection-start-column="59" selection-end-line="66" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SiteController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
-              <caret line="93" column="5" selection-start-line="93" selection-start-column="5" selection-end-line="93" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="heisenberg.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/protected/heisenberg.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+            <state relative-caret-position="288">
+              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -91,11 +81,11 @@
         <option value="$PROJECT_DIR$/protected/heisenberg.php" />
         <option value="$PROJECT_DIR$/protected/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/protected/config/main.php" />
-        <option value="$PROJECT_DIR$/protected/views/site/index.php" />
         <option value="$PROJECT_DIR$/protected/extensions/rezvan/usage.php" />
         <option value="$PROJECT_DIR$/protected/config/console.php" />
         <option value="$PROJECT_DIR$/protected/commands/HeisenbergCommand.php" />
         <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/protected/views/site/index.php" />
       </list>
     </option>
   </component>
@@ -115,7 +105,7 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1545" />
+    <option name="x" value="1655" />
     <option name="y" value="24" />
     <option name="width" value="1545" />
     <option name="height" value="876" />
@@ -232,24 +222,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="migrations" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="github" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="github" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="commands" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -263,7 +235,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="CWebApplication&#9;null&#9;null&#10;site&#9;FILE&#9;file:///home/abdnia/www/github/protected/controllers/SiteController.php&#10;main&#9;FILE&#9;file:///home/abdnia/www/github/protected/config/main.php&#10;cdbmigra&#9;null&#9;null&#10;persian&#9;null&#9;null&#10;datepicker&#9;null&#9;null&#10;ain&#9;FILE&#9;file:///home/abdnia/www/github/protected/config/main.php&#10;user&#9;FILE&#9;file:///home/abdnia/www/github/protected/models/User.php&#10;ite&#9;FILE&#9;file:///home/abdnia/www/github/protected/controllers/SiteController.php&#10;CActiveRecord&#9;FILE&#9;file:///home/abdnia/www/framework/db/ar/CActiveRecord.php&#10;create_time&#9;null&#9;null&#10;ccomp&#9;null&#9;null&#10;com&#9;FILE&#9;file:///home/abdnia/www/github/protected/commands/HeisenbergCommand.php&#10;abou&#9;FILE&#9;file:///home/abdnia/www/github/protected/views/site/pages/about.php&#10;CActi&#9;FILE&#9;file:///home/abdnia/www/framework/db/ar/CActiveRecord.php&#10;about&#9;FILE&#9;file:///home/abdnia/www/github/protected/views/site/pages/about.php&#10;recipients&#9;null&#9;null&#10;yiibase&#9;FILE&#9;file:///home/abdnia/www/framework/YiiBase.php&#10;YiiBase.php&#9;FILE&#9;file:///home/abdnia/www/framework/YiiBase.php&#10;migrate&#9;FILE&#9;file:///home/abdnia/www/framework/cli/commands/MigrateCommand.php&#10;yiic&#9;FILE&#9;file:///home/abdnia/www/github/protected/yiic&#10;minimum size is&#9;null&#9;null&#10;boot&#9;FILE&#9;file:///home/abdnia/www/yii117/protected/tests/bootstrap.php" />
+    <property name="SearchEverywhereHistoryKey" value="inde&#9;FILE&#9;file:///home/abdnia/www/github/protected/views/site/index.php&#10;CWebApplication&#9;null&#9;null&#10;site&#9;FILE&#9;file:///home/abdnia/www/github/protected/controllers/SiteController.php&#10;main&#9;FILE&#9;file:///home/abdnia/www/github/protected/config/main.php&#10;cdbmigra&#9;null&#9;null&#10;persian&#9;null&#9;null&#10;datepicker&#9;null&#9;null&#10;ain&#9;FILE&#9;file:///home/abdnia/www/github/protected/config/main.php&#10;user&#9;FILE&#9;file:///home/abdnia/www/github/protected/models/User.php&#10;ite&#9;FILE&#9;file:///home/abdnia/www/github/protected/controllers/SiteController.php&#10;CActiveRecord&#9;FILE&#9;file:///home/abdnia/www/framework/db/ar/CActiveRecord.php&#10;create_time&#9;null&#9;null&#10;ccomp&#9;null&#9;null&#10;com&#9;FILE&#9;file:///home/abdnia/www/github/protected/commands/HeisenbergCommand.php&#10;abou&#9;FILE&#9;file:///home/abdnia/www/github/protected/views/site/pages/about.php&#10;CActi&#9;FILE&#9;file:///home/abdnia/www/framework/db/ar/CActiveRecord.php&#10;about&#9;FILE&#9;file:///home/abdnia/www/github/protected/views/site/pages/about.php&#10;recipients&#9;null&#9;null&#10;yiibase&#9;FILE&#9;file:///home/abdnia/www/framework/YiiBase.php&#10;YiiBase.php&#9;FILE&#9;file:///home/abdnia/www/framework/YiiBase.php&#10;migrate&#9;FILE&#9;file:///home/abdnia/www/framework/cli/commands/MigrateCommand.php&#10;yiic&#9;FILE&#9;file:///home/abdnia/www/github/protected/yiic&#10;minimum size is&#9;null&#9;null&#10;boot&#9;FILE&#9;file:///home/abdnia/www/yii117/protected/tests/bootstrap.php" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../framework" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
@@ -356,15 +328,15 @@
       <workItem from="1475927191230" duration="2531000" />
       <workItem from="1475993965260" duration="14974000" />
       <workItem from="1476015761101" duration="6197000" />
-      <workItem from="1476080497515" duration="14750000" />
+      <workItem from="1476080497515" duration="16524000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82868000" />
+    <option name="totallyTimeSpent" value="84642000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1545" y="24" width="1545" height="876" extended-state="6" />
+    <frame x="1655" y="24" width="1545" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2528352" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -410,14 +382,6 @@
     </find-history>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/protected/config/database.sample.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/yiic.bat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -680,14 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/extensions/rezvan/usage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -778,14 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/commands/HeisenbergCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="565">
@@ -798,6 +746,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_8.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4014">
+          <caret line="223" column="9" selection-start-line="223" selection-start-column="9" selection-end-line="223" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/commands/HeisenbergCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="66" column="59" selection-start-line="66" selection-start-column="59" selection-end-line="66" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
           <folding />
         </state>
       </provider>
